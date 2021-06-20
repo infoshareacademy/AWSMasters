@@ -1,3 +1,6 @@
+Skrypt user-data dla serwera EC2:
+
+```
 #!/bin/bash
 sudo yum update -y
 sudo yum install php httpd -y
@@ -16,3 +19,4 @@ cat <<EOF> /var/www/html/index.html
 	</body>
 </html>
 EOF
+```
