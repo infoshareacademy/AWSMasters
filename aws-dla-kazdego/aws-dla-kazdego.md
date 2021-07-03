@@ -4,3 +4,4 @@
 - [Powołujemy nową sieć VPC z wykorzystaniem CLI](powolujemy-nowa-siec-vpc-z-wykorzystaniem-cli.md)
 - [Powołujemy instancję EC2 z wykorzystaniem CLI](powolujemy-instancje-ec2-z-wykorzystaniem-cli.md)
 - [Serwery prywatne](servery_prywatne.md)
+- [AMI - czyli obrazy serwerów wirtualnych](ami-czyli-obrazy-serwerow-wirtualnych.md)
