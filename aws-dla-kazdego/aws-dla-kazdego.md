@@ -6,3 +6,4 @@
 - [Serwery prywatne](servery_prywatne.md)
 - [AMI - czyli obrazy serwerów wirtualnych](ami-czyli-obrazy-serwerow-wirtualnych.md)
 - [Launch Template – czyli najlepszy sposób...](launch-template.md)
+- [Monitorowanie zasobów chmurowych – czyli pierwsze kroki z CloudWatch](monitorowanie-zasobow-chmurowych–czyli-pierwsze-kroki-z-CloudWatch.md)
