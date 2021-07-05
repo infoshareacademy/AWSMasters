@@ -8,3 +8,4 @@
 - [Launch Template – czyli najlepszy sposób...](launch-template.md)
 - [Monitorowanie zasobów chmurowych – czyli pierwsze kroki z CloudWatch](monitorowanie-zasobow-chmurowych–czyli-pierwsze-kroki-z-CloudWatch.md)
 - [Symulacja ataku DDoS na aplikację webową](symulacja-ataku-ddos-na-aplikacje-webowa.md)
+- [Infrastructure as Code - czyli opisujemy elementy chmurowe w postaci szablonu](infrastructure-as-code-czyli-opisujemy.md)
