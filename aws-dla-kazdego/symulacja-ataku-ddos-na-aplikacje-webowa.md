@@ -6,7 +6,7 @@ aws ec2 run-instances \
     --instance-type c5.large \
     --subnet-id REPLACE_ME \
     --security-group-ids REPLACE_ME \
-    --key-name workshop \
+    --key-name REPLACE_ME \
     --monitoring Enabled=true \
     --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=DDOS-er}]"
 ```
