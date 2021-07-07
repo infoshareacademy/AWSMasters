@@ -32,7 +32,7 @@ Spakowanie i przesłanie aplikacji do S3.
 ```
 
 cd ~/environment
-mkdir myapp
+cd myapp
 zip -r heman-app.zip .
 aws s3 cp heman-app.zip s3://REPLACEME/heman-app.zip
 rm heman-app.zip
