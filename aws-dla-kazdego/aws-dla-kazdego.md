@@ -10,3 +10,4 @@
 - [Symulacja ataku DDoS na aplikację webową](symulacja-ataku-ddos-na-aplikacje-webowa.md)
 - [Infrastructure as Code - czyli opisujemy elementy chmurowe w postaci szablonu](infrastructure-as-code-czyli-opisujemy.md)
 - [Deployment w systemach horyzontalnych - czyli CodeDeploy w akcji](deployment-w-systemach-horyzontalnych.md)
+- [CodePipeline – Automatyzacja procesu wdrażania aplikacji w praktyce](CodePipeline–Automatyzacja-procesu.md)
