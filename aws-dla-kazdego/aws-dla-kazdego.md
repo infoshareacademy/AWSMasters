@@ -12,3 +12,5 @@
 - [Deployment w systemach horyzontalnych - czyli CodeDeploy w akcji](deployment-w-systemach-horyzontalnych.md)
 - [CodePipeline – Automatyzacja procesu wdrażania aplikacji w praktyce](CodePipeline–Automatyzacja-procesu.md)
 - [PaaS – czyli Platform as a Service w ramach usługi Beanstalk](paas–czyli-beanstalk.md)
+- [ECR – Czyli gdzie trzymać obrazy aplikacji kontenerowych](ecr-czyli-gdzie-trzymac-obrazy.md)
+- 
