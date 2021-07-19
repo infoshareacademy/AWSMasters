@@ -2,5 +2,5 @@
 
 ## Dostępne ścieżki
 - [AWS Dla Każdego](aws-dla-kazdego/aws-dla-kazdego.md)
-- [Serverless](TODO)
+- [Serverless](serverless/serverless.md)
 - [Konteneryzacja](TODO)
