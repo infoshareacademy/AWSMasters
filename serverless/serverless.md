@@ -1,2 +1,3 @@
 ## Serverless
-- [TODO](todo.md)
+- [Wywołanie mikrousług serverless za pomocą AWS SDK](wywolanie-mikrouslug-serverless-za-pomoca-aws-sdk)
+- [Logowanie w mikrousługach serverless](logowanie-w-lambdzie.md)
