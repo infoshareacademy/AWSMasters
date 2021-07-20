@@ -3,3 +3,4 @@
 - [Logowanie w mikrousługach serverless](logowanie-w-lambdzie.md)
 - [Uprawnienia funkcji lambda](lambda-role.md)
 - [Serverless spotyka Jave](java-wita-serverless.md)
+- [Kontenery dockerowe jako usługi serverlessowe funkcji lambda](kontnery-dockerowy.md)
