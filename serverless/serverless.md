@@ -4,3 +4,5 @@
 - [Uprawnienia funkcji lambda](lambda-role.md)
 - [Serverless spotyka Jave](java-wita-serverless.md)
 - [Kontenery dockerowe jako usługi serverlessowe funkcji lambda](kontnery-dockerowy.md)
+- [Lambda a sieci VPC](lambda-a-sieci-vpc.md)
+- [DynamoDB w praktyce](dynamodb.db)
