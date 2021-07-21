@@ -6,3 +6,4 @@
 - [Kontenery dockerowe jako usługi serverlessowe funkcji lambda](kontnery-dockerowy.md)
 - [Lambda a sieci VPC](lambda-a-sieci-vpc.md)
 - [DynamoDB w praktyce](dynamodb.md)
+- [Serverles-owe bazy danych – Aurora Serverless w praktyce](aurora.md)
