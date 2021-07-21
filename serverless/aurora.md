@@ -1,4 +1,9 @@
-
+```
+wget http://cdn.mysql.com/Downloads/Connector-Python/mysql-connector-python-2.0.4.zip#md5=3df394d89300db95163f17c843ef49df
+unzip mysql-connector-python-2.0.4.zip
+cd mysql-connector-python-2.0.4
+sudo python3 setup.py install
+```
 
 ```
 aws s3 cp s3://cloudbuildersday/lab-bigdata . --recursive
