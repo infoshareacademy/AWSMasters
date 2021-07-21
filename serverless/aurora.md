@@ -22,9 +22,9 @@ mydb = mysql.connector.connect(
 
 
 mycursor = mydb.cursor()
-mycursor.execute("CREATE DATABASE bidgata")
+mycursor.execute("CREATE DATABASE bigdata")
 mycursor.execute("USE bigdata")
-mycursor.execute("CREATE TABLE bidgata.people ( id INTEGER, age INTEGER, firstname VARCHAR(255), lastname VARCHAR(255), country VARCHAR(255), sex VARCHAR(255), numberofkids INTEGER, revenue DOUBLE, leavingincity VARCHAR(255), likemusic VARCHAR(255), likecinema VARCHAR(255), bankbalance DOUBLE, happinnessratio DOUBLE, height INT, weight INT )")
+mycursor.execute("CREATE TABLE bigdata.people ( id INTEGER, age INTEGER, firstname VARCHAR(255), lastname VARCHAR(255), country VARCHAR(255), sex VARCHAR(255), numberofkids INTEGER, revenue DOUBLE, leavingincity VARCHAR(255), likemusic VARCHAR(255), likecinema VARCHAR(255), bankbalance DOUBLE, happinnessratio DOUBLE, height INT, weight INT )")
 mycursor.execute("COMMIT");
 ```
 
