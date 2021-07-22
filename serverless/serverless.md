@@ -8,4 +8,5 @@
 - [DynamoDB w praktyce](dynamodb.md)
 - [Serverles-owe bazy danych – Aurora Serverless w praktyce](aurora.md)
 - [EventBridge w praktyce](event-bridge.md)
+- [Destynacje Lambdy](destynacje-lambda.md)
 - [Athena w praktyce](athena-w-praktyce.md)
