@@ -11,7 +11,9 @@ lambdaClient = boto3.client('lambda')
 def lambda_handler(event, context):
 
     file = (int)(event['Records'][0]['s3']['object']['key'][0:-4])
-
+    size = event["Records"][0]["s3"]["object"]["size"]
+    bucket = event["Records"][0]["s3"]["bucket"]["name"]
+    
     logger.info('New File Detected!');
     logger.info('File: %s', file);
     
@@ -20,7 +22,10 @@ def lambda_handler(event, context):
     table = dynamodb.Table("items")
     table.put_item(
         Item={
-            'file' : file
+            'file' : file,
+            'size' : size,
+            'bucket' : bucket
+            
         }
     )
 
