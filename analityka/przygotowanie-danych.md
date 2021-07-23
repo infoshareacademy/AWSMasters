@@ -1,6 +1,6 @@
 
 ```
-aws s3 cb s3://awsmasters-analityka-tst
+aws s3 mb s3://awsmasters-analityka-tst
 ```
 
 ```
