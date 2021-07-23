@@ -3,4 +3,4 @@
 ## Dostępne ścieżki
 - [AWS Dla Każdego](aws-dla-kazdego/aws-dla-kazdego.md)
 - [Serverless](serverless/serverless.md)
-- [Konteneryzacja](TODO)
+- [Analityka w Chmurze](analityka/analityka.md)
