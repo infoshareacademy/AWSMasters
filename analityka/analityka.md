@@ -1,2 +1,2 @@
 ## Analityka w Chmurze
-- [Analityka](przygotowanie-danych.md)
+- [Przygotowanie danych](przygotowanie-danych.md)
