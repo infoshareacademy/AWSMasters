@@ -10,5 +10,5 @@ aws s3 cp s3://cloudbuildersday/lab-bigdata-with-header/ s3://awsmasters-anality
 
 
 ```
-aws s3 cp s3://cloudbuildersday/lab-bigdata-1TB/ s3://awsmasters-analityka-tst/bigdata-huge --recursive
+aws s3 cp s3://athena-examples/elb/raw/ s3://awsmasters-analityka-tst/bigdata-huge --recursive
 ```
