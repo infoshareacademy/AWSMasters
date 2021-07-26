@@ -6,6 +6,33 @@ hadoop fs -cp  s3://cloudbuildersday/lab-bigdata /bigdata
 hive
 ```
 
+
+```
+CREATE EXTERNAL TABLE IF NOT EXISTS chmurolandia_dane (
+ `id` int,
+ `age` int,
+ `firstname` string,
+ `lastname` string,
+ `country` string,
+ `sex` string,
+ `numberofkids` int,
+ `revenue` double,
+ `leavingincity` string,
+ `likemusic` string,
+ `likecinema` string,
+ `bankbalance` double,
+ `happinnessratio` double,
+ `height` int,
+ `weight` int
+)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+WITH SERDEPROPERTIES (
+ 'serialization.format' = ',',
+ 'field.delim' = ','
+) LOCATION '/bigdata';
+```
+
+
 ```
 -- sprawdz 10 wierszy
 SELECT * FROM chmurolandia_dane limit 10;
