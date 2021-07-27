@@ -20,7 +20,5 @@ for filename in os.listdir("data"):
 
 
 ```
-mkdir data 
-mkdir archived
 aws s3 cp archived/ s3://awsmasters-analityka-tst/bigdata-with-header-archived --recursive
 ```
