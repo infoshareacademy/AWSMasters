@@ -4,3 +4,4 @@
 - [Kinesis Firehose w praktyce](kinesis-firehose.md)
 - [Glue DataBrew - jak czyscić dane z klasą](glue-databrew.md)
 - [Konfiguracja pierwszego klastra BigData](hadoop.md)
+- [Athena](athena.md)
