@@ -5,3 +5,4 @@
 - [Glue DataBrew - jak czyscić dane z klasą](glue-databrew.md)
 - [Konfiguracja pierwszego klastra BigData](hadoop.md)
 - [Athena](athena.md)
+- [Redshift i hurtowniana analiza danych w praktyce](redshift.md)
