@@ -4,4 +4,4 @@
 - [AWS Dla Każdego](aws-dla-kazdego/aws-dla-kazdego.md)
 - [Serverless](serverless/serverless.md)
 - [Analityka w Chmurze](analityka/analityka.md)
-- [Bezpieczenstwo](bezpieczenstwo/bezpieczentwo.md)
+- [Bezpieczenstwo](bezpieczenstwo/bezpieczenstwo.md)
