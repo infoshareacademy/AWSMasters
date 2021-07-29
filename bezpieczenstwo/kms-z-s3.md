@@ -8,7 +8,7 @@ aws s3 cp unicorn.png s3://REPLACEME/unicorn-plain.png
 ```
 
 ```
-aws s3 cp unicorn.png s3://REPLACEME/kms/unicorn-plain-public.png --acl public-read
+aws s3 cp unicorn.png s3://REPLACEME/unicorn-plain-public.png --acl public-read
 ```
 
 ```
