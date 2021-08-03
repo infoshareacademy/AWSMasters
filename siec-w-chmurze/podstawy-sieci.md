@@ -42,7 +42,6 @@ Resources:
       Properties:
         AvailabilityZone : "eu-west-1a"
         CidrBlock: "10.0.2.0/24"
-        MapPublicIpOnLaunch: True
         VpcId:
           Ref: VPC
         Tags:
@@ -54,7 +53,6 @@ Resources:
       Properties:
         AvailabilityZone : "eu-west-1b"
         CidrBlock: "10.0.4.0/24"
-        MapPublicIpOnLaunch: True
         VpcId:
           Ref: VPC
         Tags:
