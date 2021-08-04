@@ -114,10 +114,10 @@ Resources:
 
     ShareAppServer:
         Type: AWS::EC2::Instance
-        Properties: 
+        Properties:
             ImageId: ami-01720b5f421cf0179
             InstanceType: t3.nano
-            SecurityGroupIds: 
+            SecurityGroupIds:
                 - !Ref SecurityGroupSSH
             SubnetId: !Ref SubnetPublic1
             Tags:
@@ -335,7 +335,7 @@ Resources:
     VPC:
         Type: AWS::EC2::VPC
         Properties:
-            CidrBlock: "12.0.0.0/16"
+            CidrBlock: "13.0.0.0/16"
             Tags:
                 - Key: Name
                   Value: !Sub ${AWS::StackName}-VPC
@@ -343,7 +343,7 @@ Resources:
       Type: "AWS::EC2::Subnet"
       Properties:
         AvailabilityZone : "eu-west-1a"
-        CidrBlock: "12.0.1.0/24"
+        CidrBlock: "13.0.1.0/24"
         MapPublicIpOnLaunch: True
         VpcId:
           Ref: VPC
@@ -355,7 +355,7 @@ Resources:
       Type: "AWS::EC2::Subnet"
       Properties:
         AvailabilityZone : "eu-west-1b"
-        CidrBlock: "12.0.3.0/24"
+        CidrBlock: "13.0.3.0/24"
         MapPublicIpOnLaunch: True
         VpcId:
           Ref: VPC
@@ -367,7 +367,7 @@ Resources:
       Type: "AWS::EC2::Subnet"
       Properties:
         AvailabilityZone : "eu-west-1a"
-        CidrBlock: "12.0.2.0/24"
+        CidrBlock: "13.0.2.0/24"
         VpcId:
           Ref: VPC
         Tags:
@@ -378,7 +378,7 @@ Resources:
       Type: "AWS::EC2::Subnet"
       Properties:
         AvailabilityZone : "eu-west-1b"
-        CidrBlock: "12.0.4.0/24"
+        CidrBlock: "13.0.4.0/24"
         VpcId:
           Ref: VPC
         Tags:
