@@ -99,6 +99,21 @@ Resources:
             RouteTableId: !Ref PublicRouteTable
             SubnetId: !Ref SubnetPublic2
 
+    SecurityGroupWWW:
+      Type: AWS::EC2::SecurityGroup
+      Properties:
+        GroupDescription: Limits security group egress traffic to HTTP
+        SecurityGroupIngress:
+        - CidrIp: 0.0.0.0/0
+          IpProtocol: tcp
+          ToPort: 80
+          FromPort: 80
+        - CidrIp: 0.0.0.0/0
+          IpProtocol: tcp
+          ToPort: 443
+          FromPort: 443
+        VpcId:
+          Ref: VPC
 
     SecurityGroupSSH:
       Type: AWS::EC2::SecurityGroup
