@@ -16,6 +16,8 @@ Resources:
         Type: AWS::EC2::VPC
         Properties:
             CidrBlock: "12.0.0.0/16"
+            EnableDnsHostnames: True
+            EnableDnsSupport: True
             Tags:
                 - Key: Name
                   Value: !Sub ${AWS::StackName}-VPC
