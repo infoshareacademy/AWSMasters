@@ -44,7 +44,7 @@ def pi():
     n = 4
     d = 1
 
-    for i in range(1,1000):
+    for i in range(1,10000):
         a = 2 * (i % 2)
         pi += a * n / d
         d += 2
