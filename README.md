@@ -7,3 +7,4 @@
 - [Bezpieczenstwo](bezpieczenstwo/bezpieczenstwo.md)
 - [Sieć w Chmurze](siec-w-chmurze/siec-w-chmurze.md)
 - [Konteneryzacja](konteneryzacja/konteneryzacja.md)
+- [Sztuczna Inteligencja](ai/ai.md)
