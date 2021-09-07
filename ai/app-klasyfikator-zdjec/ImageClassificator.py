@@ -27,8 +27,8 @@ def lambda_handler(event, context):
     result = response['Body'].read()
     result = json.loads(result)
 
-    items = [];
-
+    items = []
+    categoryScore = 0
     it = -1
     for score in result:
         it = it + 1;
