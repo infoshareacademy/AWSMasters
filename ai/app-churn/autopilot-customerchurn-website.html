@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#parse_button").click(function(){
+    var res = $("#data").val().split(",");
+    $("#input1").val(res[0]);
+    $("#input2").val(res[1]);
+    $("#input3").val(res[2]);
+    $("#input4").val(res[3]);
+    $("#input5").val(res[4]);
+    $("#input6").val(res[5]);
+    $("#input7").val(res[6]);
+    $("#input8").val(res[7]);
+    $("#input9").val(res[8]);
+    $("#input10").val(res[9]);
+    $("#input11").val(res[10]);
+    $("#input12").val(res[11]);
+    $("#input13").val(res[12]);
+    $("#input14").val(res[13]);
+    $("#input15").val(res[14]);
+    $("#input16").val(res[15]);
+    $("#input17").val(res[16]);
+    $("#input18").val(res[17]);
+    $("#input19").val(res[18]);
+    $("#input20").val(res[19]);
+  });
+  $("#predict_button").click(function(){
+    endpoint = "REPLACEME";
+    data = $("#input1").val()+','+$("#input2").val()+','+$("#input3").val()+','+$("#input4").val()+','+$("#input5").val()+','+$("#input6").val()+','+$("#input7").val()+','+$("#input8").val()+','+$("#input9").val()+','+$("#input10").val()+','+$("#input11").val()+','+$("#input12").val()+','+$("#input13").val()+','+$("#input14").val()+','+$("#input15").val()+','+$("#input16").val()+','+$("#input17").val()+','+$("#input18").val()+','+$("#input19").val()+','+$("#input20").val();
+    $.post(endpoint,data,
+      function(data,status){
+        $("#response").text("Customer Churn: " + data);
+      });
+  });
+});
+</script>
+</head>
+<body>
+
+
+Full Record: <input id="data" size="80" value="NV,90,415,399-4246,no,no,0,203.4,146,34.58,226.7,117,19.27,152.4,105,6.86,7.3,4,1.97,1"><button id="parse_button">Parse!</button>
+
+<br/><br/><br/><br/>
+<table>
+  <tr><td>State</td><td><input id="input1"/></td><td>Eve Mins</td><td><input id="input11"/></td></tr>
+  <tr><td>Account Length</td><td><input id="input2"/></td><td>Eve Calls</td><td><input id="input12"/></td></tr>
+  <tr><td>Area Code</td><td><input id="input3"/></td><td>Eve Charge</td><td><input id="input13"/></td></tr>
+  <tr><td>Phone</td><td><input id="input4"/></td><td>Night Mins</td><td><input id="input14"/></td></tr>
+  <tr><td>Int'l Plan</td><td><input id="input5"/></td><td>Night Calls</td><td><input id="input15"/></td></tr>
+  <tr><td>VMail Plan</td><td><input id="input6"/></td><td>Night Charge</td><td><input id="input16"/></td></tr>
+  <tr><td>VMail Message</td><td><input id="input7"/></td><td>Intl Mins</td><td><input id="input17"/></td></tr>
+  <tr><td>Day Mins</td><td><input id="input8"/></td><td>Intl Calls</td><td><input id="input18"/></td></tr>
+  <tr><td>Day Calls</td><td><input id="input9"/></td><td>Intl Charge</td><td><input id="input19"/></td></tr>
+  <tr><td>Day Charge</td><td><input id="input10"/></td><td>CustServ Calls</td><td><input id="input20"/></td></tr>
+
+</table>
+
+<button id="predict_button">Predict!</button>
+
+<p id="response"></p>
+
+</body>
+</html>
