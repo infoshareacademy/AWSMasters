@@ -4,10 +4,10 @@
 export VPC=$(aws ec2 create-vpc --cidr-block "10.0.0.0/16" --tag-specifications 'ResourceType=vpc,Tags=[{Key=Name,Value=awsmasters-network}]' --output text --query Vpc.VpcId)
 
 #Creating Subnets
-export SUBNET_PUB_1=$(aws ec2 create-subnet --vpc-id $VPC --cidr-block "10.0.1.0/24" --tag-specifications 'ResourceType=subnet,Tags=[{Key=Name,Value=awsmasters_pub_1}]' --output text --query Subnet.SubnetId)
-export SUBNET_PUB_2=$(aws ec2 create-subnet --vpc-id $VPC --cidr-block "10.0.2.0/24" --tag-specifications 'ResourceType=subnet,Tags=[{Key=Name,Value=awsmasters_pub_2}]' --output text --query Subnet.SubnetId)
-export SUBNET_PRV_1=$(aws ec2 create-subnet --vpc-id $VPC --cidr-block "10.0.3.0/24" --tag-specifications 'ResourceType=subnet,Tags=[{Key=Name,Value=awsmasters_prv_1}]' --output text --query Subnet.SubnetId)
-export SUBNET_PRV_2=$(aws ec2 create-subnet --vpc-id $VPC --cidr-block "10.0.4.0/24" --tag-specifications 'ResourceType=subnet,Tags=[{Key=Name,Value=awsmasters_prv_2}]' --output text --query Subnet.SubnetId)
+export SUBNET_PUB_1=$(aws ec2 create-subnet --vpc-id $VPC --cidr-block "10.0.1.0/24" --availability-zone eu-west-1a --tag-specifications 'ResourceType=subnet,Tags=[{Key=Name,Value=awsmasters_pub_1}]' --output text --query Subnet.SubnetId)
+export SUBNET_PUB_2=$(aws ec2 create-subnet --vpc-id $VPC --cidr-block "10.0.2.0/24" --availability-zone eu-west-1b --tag-specifications 'ResourceType=subnet,Tags=[{Key=Name,Value=awsmasters_pub_2}]' --output text --query Subnet.SubnetId)
+export SUBNET_PRV_1=$(aws ec2 create-subnet --vpc-id $VPC --cidr-block "10.0.3.0/24" --availability-zone eu-west-1a --tag-specifications 'ResourceType=subnet,Tags=[{Key=Name,Value=awsmasters_prv_1}]' --output text --query Subnet.SubnetId)
+export SUBNET_PRV_2=$(aws ec2 create-subnet --vpc-id $VPC --cidr-block "10.0.4.0/24" --availability-zone eu-west-1b --tag-specifications 'ResourceType=subnet,Tags=[{Key=Name,Value=awsmasters_prv_2}]' --output text --query Subnet.SubnetId)
 
 #Create Internet Gateway
 export IGW=$(aws ec2 create-internet-gateway --tag-specifications 'ResourceType=internet-gateway,Tags=[{Key=Name,Value=awsmasters_igw}]' --output text --query InternetGateway.InternetGatewayId)
