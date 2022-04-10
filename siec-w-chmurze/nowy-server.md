@@ -5,5 +5,5 @@ aws ec2 run-instances \
     --subnet-id REPLACE_ME \
     --security-group-ids REPLACE_ME \
     --key-name REPLACE_ME \
-    --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=Tester}]" \
+    --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=Tester}]"
 ```
