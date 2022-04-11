@@ -2,7 +2,7 @@
 Frodo:
 ```
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'Network Template'
+Description: 'Frodo Template'
 Resources:
 
     VPC:
@@ -143,7 +143,7 @@ Resources:
 Ring:
 ```
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'Network Template'
+Description: 'Ring Template'
 Resources:
 
     VPC:
