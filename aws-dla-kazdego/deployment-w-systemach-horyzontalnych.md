@@ -1,5 +1,6 @@
 Nowy fragment skryptu User Data
 ```
+#!/bin/bash
 sudo yum install ruby -y
 sudo yum install wget
 cd /home/ec2-user
